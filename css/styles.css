@@ -1,6 +1,22 @@
+@font-face {
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'PlayfairDisplay';
+	font-display: swap;
+	src: local('PlayfairDisplay-Regular'), url('../fonts/PlayfairDisplay-Regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-weight: 700;
+	font-style: normal;
+	font-family: 'PlayfairDisplay';
+	font-display: swap;
+	src: local('PlayfairDisplay-Bold'), url('../fonts/PlayfairDisplay-Bold.ttf') format('ttf');
+}
+
 .page {
   margin: 0;
-  font-family: "PlayfairDisplay", "Arial", sans-serif;
+  font-family: 'PlayfairDisplay', 'Arial', sans-serif;
 }
 
 img {
@@ -73,6 +89,7 @@ img {
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #b4ad9e;
 }
 
@@ -83,6 +100,14 @@ img {
   line-height: 40px;
   font-weight: 400;
   color: #626262;
+}
+
+.page-main__heading-link {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #626262;
+  text-decoration: none;
 }
 
 .page-main__text {
