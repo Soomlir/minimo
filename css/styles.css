@@ -3,15 +3,7 @@
 	font-style: normal;
 	font-family: 'PlayfairDisplay';
 	font-display: swap;
-	src: local('PlayfairDisplay-Regular'), url('../fonts/PlayfairDisplay-Regular.ttf') format('ttf');
-}
-
-@font-face {
-	font-weight: 700;
-	font-style: normal;
-	font-family: 'PlayfairDisplay';
-	font-display: swap;
-	src: local('PlayfairDisplay-Bold'), url('../fonts/PlayfairDisplay-Bold.ttf') format('ttf');
+	src: local('PlayfairDisplay-Regular'), url('../fonts/playfair-display-regular.woff2') format('woff2');
 }
 
 .page {
@@ -25,7 +17,8 @@ img {
 }
 
 .visually-hidden {
-  display: none;
+  position: fixed;
+  transform: scale(0);
 }
 
 .wrapper {
