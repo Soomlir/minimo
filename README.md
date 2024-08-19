@@ -1,3 +1,6 @@
 # minimo
 
-Учебный проект Minimo
+Учебный проект - верстка.
+
+Опубликованная версия:
+[minimo](https://soomlir.github.io/minimo/)
